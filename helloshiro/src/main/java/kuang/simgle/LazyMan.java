@@ -24,6 +24,7 @@ public class LazyMan {
                 LazyMan.getInstance();
             }).start();
             System.out.println();
+            System.out.println("ssss");
         }
     }
 }
