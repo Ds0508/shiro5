@@ -23,6 +23,7 @@ public class LazyMan {
             new Thread(()->{
                 LazyMan.getInstance();
             }).start();
+            System.out.println();
         }
     }
 }
